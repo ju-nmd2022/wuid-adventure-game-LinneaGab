@@ -1,4 +1,19 @@
 .room1frame {
     display:block;
+    z-index: -1;
     position: absolute;
+}
+
+.door {
+    display:flex;
+    left: 509px;
+    top: 110px;
+    position: absolute;
+}
+
+p {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 250px;
 }

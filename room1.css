@@ -1,13 +1,20 @@
 .room1keyframe {
     display: block;
-    z-index:-1;
+    z-index: -1;
     position: absolute;
 }
 
 .key {
     display:flex;
-    z-index: index 1;
     width: 50px;
-    padding-left: 400px;
-    padding-top: 140px;
+    top: 155px;
+    left: 405px;
+    position: absolute;
+}
+
+.door {
+    display:flex;
+    left: 509px;
+    top: 110px;
+    position: absolute;
 }
